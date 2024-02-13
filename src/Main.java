@@ -26,13 +26,21 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args){
+        //COLOUR VARS
         Color black = new Color(0, 0, 0);
         Color red = new Color(255, 0, 0);
         Color green = new Color(0, 255, 0);
         Color blue = new Color(0, 0, 255);
-        JFrame fr = new JFrame("BRICK ATTACK");
-        fr.setBounds(10, 10, 600, 800);
-        fr.setBackground(black);
-        
+        Color purple = new Color(127, 0, 127);
+        Color teal = new Color(4, 154, 156);
+
+        MyFrame homeFrame = new MyFrame();
+        JLabel title = new JLabel("Brick Attack", JLabel.CENTER);
+        title.setForeground(purple);
+        title.setPreferredSize(new Dimension(500, 200));
+        title.setVerticalAlignment(JLabel.CENTER);
+        homeFrame.add(title);
+
     }
+
 }
