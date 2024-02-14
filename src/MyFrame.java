@@ -6,7 +6,6 @@ public class MyFrame extends JFrame {
 
     MyFrame(){
         //JFrame setup
-        this.setTitle("BRICK ATTACK!");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setBounds(10, 10, 1500, 800);
